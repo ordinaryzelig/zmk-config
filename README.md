@@ -17,3 +17,11 @@
     - Switch controller on.
     - It should be detectable by bluetooth. Connect like any bluetooth device.
     - Right should automatically connect to left.
+
+## Keymap config
+
+- Edit config.cradio.keymap.
+- Push to github.
+- Action will automatically run.
+- If successful, download the resulting zip file.
+- Unzip and flash.
