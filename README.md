@@ -2,7 +2,8 @@
 
 ### First time
 
-- https://zmk.dev/docs/user-setup
+- https://zmk.dev/docs/user-setup.
+- Select cradio, nice!nano.
 
 ### Re-setup
 
