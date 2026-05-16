@@ -9,6 +9,8 @@
 #define HRML(k1,k2,k3,k4) &ht LCTRL k1  &ht LALT  k2  &ht LALT  k3  &ht LGUI  k4
 #define HRMR(k1,k2,k3,k4) &ht RGUI  k1  &ht RALT  k2  &ht RALT  k3  &ht RCTRL k4
 
+#define LEFTTHUMB &ht LGUI SPACE
+
 / {
     behaviors {
         ht: hold_tap {
@@ -44,7 +46,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
            &mt LSHFT Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &mt RSHFT FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &lt 2 TAB   &kp SPACE     &kp ENTER  &lt 1 BSPC
+                                            &lt 2 TAB   LEFTTHUMB     &kp ENTER  &lt 1 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
