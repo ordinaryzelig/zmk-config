@@ -4,6 +4,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include "cradio_labels.h"
 
 // Home row mods macro
 #define HRML(k1,k2,k3,k4) &ht LCTRL k1  &ht LALT  k2  &ht LALT  k3  &ht LGUI  k4
@@ -21,7 +22,7 @@
 / {
     combos {
         compatible = "zmk,combos";
-        COMBO(combo_esc, 16 17, &kp ESC)
+        COMBO(combo_esc, RM1 RM2, &kp ESC)
     };
 
     behaviors {
