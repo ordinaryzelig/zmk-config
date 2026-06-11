@@ -12,17 +12,19 @@
 
 #define LEFTTHUMB &ht LGUI SPACE
 
-#define COMBO(name, keys, binding) \
-    name { \
-        key-positions = <keys>; \
-        bindings = <binding>; \
-        timeout-ms = <30>; \
-    };
-
 / {
     combos {
         compatible = "zmk,combos";
-        COMBO(combo_esc, RM1 RM2, &kp ESC)
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <RM1 RM2>;
+            bindings = <&kp ESC>;
+        };
+        combo_cmd_space {
+            timeout-ms = <50>;
+            key-positions = <RB3 RB4>;
+            bindings = <&kp LG(SPACE)>;
+        };
     };
 
     behaviors {
