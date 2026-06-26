@@ -25,6 +25,21 @@
             key-positions = <RB1 RB2>;
             bindings = <&kp LG(SPACE)>;
         };
+        combo_colon {
+            timeout-ms = <50>;
+            key-positions = <RB3 RB4>;
+            bindings = <&kp COLON>;
+        };
+        combo_open_curly_brace {
+            timeout-ms = <50>;
+            key-positions = <RT2 RT3>;
+            bindings = <&kp LBRC>;
+        };
+        combo_close_curly_brace {
+            timeout-ms = <50>;
+            key-positions = <RT3 RT4>;
+            bindings = <&kp RBRC>;
+        };
     };
 
     behaviors {
