@@ -92,8 +92,8 @@
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp DEL    &kp N4     &kp N5     &kp N6     &trans         &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ CAPS     │  1       │  2       │  3       │  0       │   │          │          │          │          │          │
-           &caps_word  &kp N1     &kp N2     &kp N3     &kp N0         &trans     &trans     &trans     &trans     &trans
+        //│          │  1       │  2       │  3       │  0       │   │          │          │          │          │          │
+            &trans     &kp N1     &kp N2     &kp N3     &kp N0         &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
