@@ -40,6 +40,11 @@
             key-positions = <RT3 RT4>;
             bindings = <&kp RBRC>;
         };
+        combo_tilde {
+            timeout-ms = <50>;
+            key-positions = <LT4 LT3>;
+            bindings = <&kp TILDE>;
+        };
     };
 
     behaviors {
