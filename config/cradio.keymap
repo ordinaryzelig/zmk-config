@@ -10,7 +10,12 @@
 #define HRML(k1,k2,k3,k4) &ht LCTRL k1  &ht LALT  k2  &ht LALT  k3  &ht LGUI  k4
 #define HRMR(k1,k2,k3,k4) &ht RGUI  k1  &ht RALT  k2  &ht RALT  k3  &ht RCTRL k4
 
-#define LEFTTHUMB &ht LGUI SPACE
+#define LEFTTHUMB &thumb LGUI SPACE
+
+&lt {
+    flavor = "balanced";
+    quick-tap-ms = <175>;
+};
 
 / {
     combos {
@@ -55,6 +60,15 @@
             tapping-term-ms = <175>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
+            bindings = <&kp>, <&kp>;
+        };
+
+        thumb: thumb_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
         };
     };
