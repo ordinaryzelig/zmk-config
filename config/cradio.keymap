@@ -95,7 +95,7 @@
             HRML(A,     S,         D,         F)         &kp G          &kp H      HRMR(J,    K,         L,        SQT)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
-           &mt LSHFT Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &mt RSHFT FSLH
+           &mt LSHFT Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M     &kp COMMA  &kp DOT    &mt RSHFT FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB   LEFTTHUMB     &kp ENTER  &lt 1 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
