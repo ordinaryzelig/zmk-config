@@ -13,7 +13,7 @@
 #define LEFTTHUMB &thumb LGUI SPACE
 
 &lt {
-    flavor = "balanced";
+    flavor = "hold-preferred";
     quick-tap-ms = <175>;
 };
 
